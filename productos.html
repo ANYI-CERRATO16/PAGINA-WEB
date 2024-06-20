@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVERSIONES SKY</title>
+    <script src="https://kit.fontawesome.com/c9e1be23de.js" crossorigin="anonymous"></script>
+    
+</head>
+<style>
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+   }
+
+/*Encabezado*/
+header {
+    background-color: #c7c2E3;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+    z-index: 1000; 
+    top: 0;
+    justify-content: space-between;
+    left: 0;
+    height: 100px; /* Altura del header */
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+/*Logo*/
+
+.logo {
+    float: left;
+}
+
+.logo img{
+    width: 50px; 
+    height: auto; 
+    margin: 10px; 
+}
+
+
+ /*menu header*/ 
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    
+}
+
+.menu li {
+    margin-right: 20px; 
+}
+
+.menu li:last-child {
+    margin-right: 40; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.menu a:hover {
+    background-color: #e4bbff;
+    border-radius: 5px;
+}
+
+
+
+/* titulo  */
+
+.titulo {
+    text-align: center; 
+    margin-top: 1px;
+}
+
+.titulo h1 {
+    font-size: 32px; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.titulo p {
+    font-size: 18px; 
+    color: #666; 
+    margin-bottom: 20px; 
+}
+
+/*seccion de imagenes*/
+.nuevo {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.productos {
+    margin-right: 50px; 
+    text-align: center;
+    
+}
+
+.productos img {
+    width: 280px; /* Ajusta el tamaño de las imágenes según lo necesites */
+    height: auto;
+    display: block; /* Para asegurar el centrado vertical */
+    margin: 10%; 
+    
+}
+
+.productos h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+   
+}
+
+.productos p {
+    font-size: 16px;
+    color: #c176ff;
+   
+}
+
+/*********************************************/
+
+
+
+/* pie de pagina*/
+footer {
+    background-color: #8275ce;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+      width: 100%;
+    
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center; 
+}
+
+.centered-image img {
+    max-width: 2%; 
+    height: auto; 
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.centered-content button {
+    
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+ /*Antes del footer*/ 
+
+
+ .columnas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    
+    
+}
+
+.columna {
+    flex-basis: 30%; /* Ajusta el ancho de cada columna según sea necesario */
+
+}
+
+.columna h3 {
+    color: #8810c0;
+}
+
+.columna p {
+    color: #666;
+}
+
+/* Estilos para los iconos */
+.columna p i {
+    margin-right: 5px;
+}
+
+#agregarAlCarrito {
+    background-color: #d1b4f1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.barra-busqueda {
+    
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.barra-busqueda input[type="text"] {
+    padding: 8px;
+    width: 750px;
+    border: 1px solid #9767f1;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.barra-busqueda button {
+    padding: 8px 16px;
+    background-color: #b18df3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Proyecto\PAGINA WEB\logo1.png" >
+        </div>
+
+        
+    <Nav>
+         <ul class="menu">
+         <li><a href="index.html">INICIO</a></li>
+        <li><a href="CUENTA.html">MI CUENTA</a></li>
+         <li><a href="CARRITO.html">MI CARRITO</a></li>
+         </ul>
+        
+    </Nav>    
+    
+    </header>
+    <div class="barra-busqueda">
+        <!-- Barra de búsqueda -->
+        <input type="text" placeholder="Buscar...">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    
+    <div class="titulo">
+        <h1>PRODUCTOS</h1>
+        <p>Te Ofrecemos amplia variedad de Productos</p>
+    </div>
+    
+
+    <div class="nuevo">
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\1.jpeg" alt="">
+            <h3>Libreta Docente</h3>
+            <p>Lps. 550.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\2.jpeg" alt="">
+            <h3>Rompecabezas</h3>
+            <p>Lps. 250.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\3.jpeg" alt="">
+            <h3>Rompecabezas</h3>
+            <p>Lps. 250.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\4.jpeg" alt="">
+            <h3>Monogramas</h3>
+            <p>Lps. 50.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+    </div>
+      
+    <div class="nuevo">
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\5.jpeg" alt="">
+            <h3>Iman</h3>
+            <p>Lps. 200.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\6.jpeg" alt="">
+            <h3>Iman + Lapiz</h3>
+            <p>Lps. 350.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\7.jpeg" alt="">
+            <h3>Agenda</h3>
+            <p>Lps. 350.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\8.jpeg" alt="">
+            <h3>Agenda</h3>
+            <p>Lps. 350.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <div class="nuevo">
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\9.jpeg" alt="">
+            <h3>Placa día del Padre</h3>
+            <p>Lps. 400.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\10.jpeg" alt="">
+            <h3>Placa Grande</h3>
+            <p>Lps. 900.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\11.jpeg" alt="">
+            <h3>Cobertor</h3>
+            <p>Lps. 300.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\12.jpeg" alt="">
+            <h3>Cobertor</h3>
+            <p>Lps. 300.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <div class="nuevo">
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\13.jpeg" alt="">
+            <h3>Cordon Carnet</h3>
+            <p>Lps. 150.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\14.jpeg" alt="">
+            <h3>Carnet Laminado</h3>
+            <p>Lps. 55.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\15.jpeg" alt="">
+            <h3>Carnet Laminado + Retactil</h3>
+            <p>Lps. 250.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\16.jpeg" alt="">
+            <h3>Cordon para Carnet</h3>
+            <p>Lps. 150.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <div class="nuevo">
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\17.jpeg" alt="">
+            <h3>Retactil</h3>
+            <p>Lps. 200.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\18.jpeg" alt="">
+            <h3>Tazas</h3>
+            <p>Lps. 130.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\19.jpeg" alt="">
+            <h3>Etiquetas de Miel</h3>
+            <p>Lps. 15.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+        <div class="productos">
+            <img src="C:\Proyecto\PAGINA WEB\nuevos\20.jpeg" alt="">
+            <h3>Etiquetas + Tarjetas</h3>
+            <p>Lps. 450.00</p>
+            <button id="agregarAlCarrito">Agregar al carrito</button>
+        </div>
+    </div>
+    
+    
+    <div class="columnas">
+        <div class="columna">
+            <h3>Información de Contacto</h3>
+            <p><i class="fa-solid fa-location-dot"></i>Col. 21 de Febrero, calle principal, Trojes, El Paraíso.</p>
+            <p><i class="fa-solid fa-phone"></i>+504 8872-0346</p>
+            <p><i class="fa-solid fa-envelope"></i>@inve.rsionessky</p>
+            <p><i class="fa-regular fa-calendar-days"></i>Lunes a Sabado 8:00 am - 5:00pm</p>
+        </div>
+        <div class="columna">
+            <h3>Formas de Pago</h3>
+            <p><i class="fa-solid fa-store"></i>Depositos</p>
+            <p><i class="fa-solid fa-mobile"></i>Transferencias</p>
+            <p><i class="fa-solid fa-credit-card"></i>Links de Pago</p>
+        </div>
+        <div class="columna">
+            <h3>Envios a Nivel Nacional</h3>
+            <p><i class="fa-solid fa-truck-fast"></i></p>
+            <p>Rapidez - Innovación - Creatividad</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="centered-image">
+            <img src="C:\Proyecto\PAGINA WEB\logo1.png" alt="">
+        </div> 
+        <p>Inversiones SKY &copy; 2024</p>
+
+        <div class="centered-content">
+            <button><i class="fa-brands fa-facebook"></i></button>
+            <button><i class="fa-brands fa-instagram"></i></button>
+        </div>
+    </footer>
+               
+</body>
+
+
+</html>
